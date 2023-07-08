@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    font-size: 16px;
+}
+
+body {
+    background-color: #0062be;
+}
+
+section {
+    position: relative;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding: 10px 100px;
+    margin-bottom: 30px;
+}
+
+header .brand img {
+    width: 80px;
+}
+
+header .navigation a {
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-left: 30px;
+    transition: 0.5s ease;
+}
+
+header .navigation a:hover {
+    color: #999;
+}
+
+
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.landing .info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing .info h1,h2 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+}
+
+.landing .info h1 {
+    font-size: 4em;
+}
+
+.landing .info h2 {
+    font-size: 6em;
+}
+
+.landing .info p {
+    color: white;
+}
+
+
+.landing .info .btn {
+    background-color: white;
+    padding: 10px;
+    color: #000;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 30%;
+}
+
+
+.landing .img img {
+    width: 250px;
+    transition: 0.7s ease;
+}
+
+.landing .img img:hover {
+    transform: scale(1.1);
+}
+
+.landing .social-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing .social-icon a {
+    color: white;
+    padding-top: 20px;
+    transition: 0.7s ease;
+}
+
+.landing .social-icon a:hover {
+    transform: scale(1.1);
+}
+
+.landing .social-icon a i {
+    font-size: 30px;
+}
+
+.products .thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products .thumb li {
+    padding-left: 40px;
+}
+
+.products .thumb li img {
+    width: 50px;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+.products .thumb li img:hover {
+    transform: scale(1.1);
+}

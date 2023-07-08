@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Pepsi</title>
+</head>
+
+<body>
+
+    <header>
+
+        <a href="#" class="brand"><img src="logo (1).png" alt="Pepsi" title="Pepsi"></a>
+        <div class="navigation">
+            <a href="#">home</a>
+            <a href="#">products</a>
+            <a href="#">what's new</a>
+            <a href="#">newsletter</a>
+            <a href="#">contact</a>
+        </div>
+        
+    </header>
+
+    <section class="landing">
+        <div class="info">
+            <h1>that's what</h1>
+            <h2>i like</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium suscipit possimus beatae doloribus nihil error aliquam, cum dolores porro soluta omnis fugiat officiis accusamus nam doloremque sint excepturi magni minus?</p>
+            <a href="#" class="btn">view all products</a>
+        </div>
+        <div class="img">
+            <img src="pepsi001.png" class="product" alt="product-1" title="product-1">
+        </div>
+        <div class="social-icon">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <section class="products">
+        <ul class="thumb">
+            <li><img src="pepsi001.png" alt="thumb1" onclick='product("pepsi001.png");changeColor("#0062be")'></li>
+            <li><img src="pepsi002.png" alt="thumb2" onclick='product("pepsi002.png");changeColor("red")'></li>
+            <li><img src="pepsi003.png" alt="thumb3" onclick='product("pepsi003.png");changeColor("#000")'></li>
+        </ul>
+    </section>
+
+</body>
+    <script src="script.js"></script>
+</html>
